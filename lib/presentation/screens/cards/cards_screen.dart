@@ -20,7 +20,7 @@ class CardsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Cards Screen'),
       ),
-      body: _CardsView(),
+      body: const _CardsView(),
     );
   }
 }

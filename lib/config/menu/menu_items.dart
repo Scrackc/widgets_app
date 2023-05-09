@@ -51,4 +51,28 @@ const List<MenuItem> appMenuItems = [
     link: '/ui-controls',
     icon: Icons.car_rental_outlined,
   ),
+  MenuItem(
+    title: 'Introducción a la aplicación',
+    subTitle: 'Pequeño tutorial introductorio',
+    link: '/tutorial',
+    icon: Icons.accessibility_rounded,
+  ),
+  MenuItem(
+    title: 'InfiniteScroll & Pull',
+    subTitle: 'Listas infinitas y pull to refresh',
+    link: '/infinite',
+    icon: Icons.list_rounded,
+  ),
+  MenuItem(
+    title: 'Riverpod Counter',
+    subTitle: 'Introducción a riverpod',
+    link: '/counter',
+    icon: Icons.add_circle_outline_rounded,
+  ),
+  MenuItem(
+    title: 'Cambiar tema',
+    subTitle: 'Cambiar tema de la aplicación',
+    link: '/theme-changer',
+    icon: Icons.color_lens_outlined,
+  ),
 ];
